@@ -1,0 +1,14 @@
+{
+  "name": "develop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Wittrock",
+  "license": "MIT",
+  "scripts": {
+    "new-module": "hygen module new",
+    "new-entity": "node ./scripts/generate-entity.js"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1"
+  }
+}
