@@ -5,8 +5,8 @@
 const { readdirSync, statSync } = require("fs");
 const { resolve } = require("path");
 
-const modules = readdirSync(resolve(__dirname, '../../../admin/src')).filter((file) => {
-    return statSync(resolve(__dirname, '../../../admin/src', file)).isDirectory() && !file.includes("-shared");
+const modules = readdirSync(resolve(__dirname, '../../../../admin/src')).filter((file) => {
+    return statSync(resolve(__dirname, '../../../../admin/src', file)).isDirectory() && !file.includes("-shared");
   });
 
 module.exports = [
